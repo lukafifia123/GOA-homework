@@ -1,0 +1,40 @@
+name = "luka"
+#name არის ცვლადი
+# = ცვლადისთვის არის მნიშვნელობის მიმნიჭბელი სიმბოლო
+# "luka" არის ცვლადისთვის მნიშვნელობა
+
+
+
+surname = "fifia"
+
+
+print(name)
+#პრინტ ფუნქცია გადაეცემა ეკრანზე გამოსატანი ობიექტი
+
+name ="luka" #ეს არის str (string) ტიპის ცვლადი
+
+age = 22 # ეს არის int (integer) მთელი რიცხვი
+
+height = 165.4 # ეს არის float ტიპის ცვლადი (ათწილადი)
+
+#booLean (bool) ტიპის ცვლადი
+
+knows_programming = True #True ან False
+is_ugly = False
+
+isUgly = False #ჯავასკრიპტული cameLcase
+
+
+# print(name + " " + surname)
+
+
+#სტრინგი არის ბრჭყალებში მოქცეული სომბოლოები
+# print(name + age)
+
+#print(type(name))
+#print(type(age))
+#print(type(height))
+#print(type(surname))
+#print(type(konws_programming))
+
+print(name + " " + str(age))
