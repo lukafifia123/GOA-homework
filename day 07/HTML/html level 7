@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მოგზაურობა მსოფლიოს გარშემო</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .destination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .destination img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .destination div {
+            flex: 1 1 30%;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>მოგზაურობა მსოფლიოს გარშემო</h1>
+        <p>აღმოაჩინეთ მსოფლიოში საუკეთესო ადგილები!</p>
+    </header>
+
+    <section>
+        <h2>ტურისტული დანიშნულებები</h2>
+        <p>მსოფლიოს სხვადასხვა კუთხეში შეგიძლიათ გაატაროთ დაუვიწყარი დრო. აი, რამდენიმე საინტერესო ადგილი, სადაც აუცილებლად უნდა წახვიდეთ:</p>
+        
+        <div class="destination">
+            <div>
+                <h3>პარიზი</h3>
+                <img src="paris.jpg" alt="პარიზი">
+                <p>პარიზი — სიყვარულის ქალაქი, რომლის ღირსშესანიშნაობები მიგიყვანს ეიფელის კოშკთან და ლუვრის მუზეუმთან.</p>
+                <button>მეტის ნახვა</button>
+            </div>
+
+            <div>
+                <h3>მალივის კუნძულები</h3>
+                <img src="maldives.jpg" alt="მალივის კუნძულები">
+                <p>თუ მშვიდი სანაპიროების მოყვარული ხართ, მალივის კუნძულები საუკეთესო არჩევანია.</p>
+                <button>მეტის ნახვა</button>
+            </div>
+
+            <div>
+                <h3>ტოკიო</h3>
+                <img src="tokyo.jpg" alt="ტოკიო">
+                <p>ტოკიო — თანამედროვე ტექნოლოგიების და ტრადიციული კულტურის შეთავაზება, სადაც შეგიძლიათ აღმოაჩინოთ ჯაპონური სამზარეულო და ნაირი კულტურული საოცრებები.</p>
+                <button>მეტის ნახვა</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h4>როგორ დავგეგმოთ მოგზაურობა?</h4>
+        <p>მოგზაურობის დაგეგმვა ადვილია, როდესაც გაქვთ საჭირო ინფორმაცია. აქ არის რამდენიმე რჩევა:</p>
+        <ul>
+            <li>გადაიხადეთ ბილეთი წინასწარ.</li>
+            <li>მოამზადეთ საჭირო საბუთები.</li>
+            <li>გაამზადეთ სავარაუდო მარშრუტი.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h5>მოგზაურობის ბიუჯეტი</h5>
+        <p>გეგმა შეადგინეთ ბიუჯეტის მიხედვით. გაარკვიეთ, რა ღირებულება ექნება ტრანსპორტს, კვებას, საცხოვრებელს და სხვა ხარჯებს.</p>
+    </section>
+
+    <section>
+        <h6>თქვენი პასპორტი მზადაა?</h6>
+        <p>მგზავრობის დაწყებამდე დარწმუნდით, რომ თქვენი პასპორტი აქტიურია და ხელმისაწვდომია!</p>
+    </section>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მომხმარებლის ინფორმაცია</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e1ffe1;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>მომხმარებლის ინფორმაციის შეყვანა</h2>
+    <div class="form-group">
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" placeholder="შეიყვანეთ სახელი">
+    </div>
+    <div class="form-group">
+        <label for="surname">გვარი:</label>
+        <input type="text" id="surname" placeholder="შეიყვანეთ გვარი">
+    </div>
+    <div class="form-group">
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" placeholder="შეიყვანეთ ასაკი">
+    </div>
+    <div class="form-group">
+        <label for="country">ქვეყანა:</label>
+        <input type="text" id="country" placeholder="შეიყვანეთ ქვეყანა">
+    </div>
+    <div class="form-group">
+        <label for="city">ქალაქი:</label>
+        <input type="text" id="city" placeholder="შეიყვანეთ ქალაქი">
+    </div>
+    <div class="form-group">
+        <label for="car">საყვარელი მანქანა:</label>
+        <input type="text" id="car" placeholder="შეიყვანეთ საყვარელი მანქანა">
+    </div>
+    <div class="form-group">
+        <label for="color">საყვარელი ფერი:</label>
+        <input type="text" id="color" placeholder="შეიყვანეთ საყვარელი ფერი">
+    </div>
+
+    <button onclick="generateSentence()">წინადადების შექმნა</button>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+    function generateSentence() {
+        // მომხმარებლის ინფორმაციის მიღება
+        const name = document.getElementById('name').value;
+        const surname = document.getElementById('surname').value;
+        const age = document.getElementById('age').value;
+        const country = document.getElementById('country').value;
+        const city = document.getElementById('city').value;
+        const car = document.getElementById('car').value;
+        const color = document.getElementById('color').value;
+
+        // წინადადების შექმნა
+        const sentence = `${name} ${surname} არის ${age} წლის და ცხოვრობს ${city}, ${country}-ში. მისთვის საყვარელი მანქანაა ${car}, ხოლო საყვარელი ფერია ${color}.`;
+
+        // შედეგის ჩვენება
+        document.getElementById('result').innerText = sentence;
+    }
+</script>
+
+</body>
+</html>

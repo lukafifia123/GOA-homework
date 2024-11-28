@@ -1,0 +1,11 @@
+name = input ("enter your name")
+print = (name)
+surname = input ("enter your surname")
+print = (surname)
+age = input ("enter your age")
+print = (age)
+num 1 =(" Enter your number 1:")
+print = (number1)
+Num 2 = ("Enter your number 2:")
+print = (number2)
+
