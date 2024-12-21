@@ -1,0 +1,151 @@
+and ოპერატორი
+
+a = True
+b = False
+print(a and b)  # False, რადგან ორივე უნდა იყოს True, რათა შედეგი იყოს True
+ 
+ or ოპერატორი
+
+a = True
+b = False
+print(a or b)  # True, რადგან ერთი მაინც არის True
+
+ორი and ოპერატორი ერთდროულად
+
+a = True
+b = True
+c = False
+print(a and b and c)  # False, რადგან ბოლო ცვლადია False
+
+
+not ოპერატორი
+
+a = True
+b = False
+print(not a)  # False, რადგან 'a' არის True
+print(not b)  # True, რადგან 'b' არის False
+
+
+(ბევრი ლოგიკური ოპერატორი ერთდროულად)
+
+a = True
+b = False
+c = True
+print((a and b) or (c and not b))  # True, რადგან მეორე ჯგუფში (c and not b) იქნება True
+
+
+რიცხვების შედარება და ლოგიკური ოპერატორით გაერთიანება
+
+a = 5
+b = 10
+c = 3
+print(a < b and b > c)  # True, რადგან a ნაკლებია b-ზე და b მეტი c-ზე
+
+რიცხვების შედარება and ოპერატორით
+
+x = 7
+y = 3
+z = 7
+print(x == z and y != z)  # True, რადგან x და z თანაბარია, მაგრამ y არ არის თანაბარი z-ს
+
+ბულეანები და ლოგიკური ოპერატორები
+
+p = True
+q = False
+print(p or q)  # True, რადგან ერთ-ერთი ცვლადი (p) არის True
+
+
+ სტრიქონების შედარება and ოპერატორით
+
+name = "Alice"
+age = 30
+print(name == "Alice" and age > 20)  # True, რადგან სახელი არის "Alice" და ასაკი მეტია 20-ზე
+
+იცხვების შედარება ორჯერ "or"- ოპერატორით
+
+m = 15
+n = 20
+o = 5
+print((m < n) or (o > n))  # True, რადგან m ნაკლებია n-ზე
+
+არა-ს (not) ოპერატორი
+
+is_active = True
+is_logged_in = False
+print(not is_active or is_logged_in)  # False, რადგან is_active არის True, ხოლო is_logged_in False
+
+ბულეანური ცვლადების შედარება ანდ-ოპერატორით
+
+is_raining = False
+is_sunny = True
+print(is_raining and is_sunny)  # False, რადგან ერთ-ერთი არის False
+
+რიცხვების შედარება და ლოგიკური ოპერატორები სტრიქონთან ერთად
+
+temperature = 25
+city = "Tbilisi"
+print(temperature > 20 and city == "Tbilisi")  # True, რადგან ტემპერატურა მეტია 20-ზე და ქალაქი არის Tbilisi
+
+გამონაკლისი შემთხვევა
+
+a = 5
+b = 10
+c = 15
+print((a < b and b < c) or (a == b))  # True, რადგან a < b და b < c, ანუ ორივე პირობა მართალია
+
+შედარების ოპერატორები და არათანმიმდევრული ლოგიკური ოპერატორები
+
+x = 10
+y = 20
+z = 15
+print((x == 10 or y == 20) and z != 10)  # True, რადგან x == 10 ან y == 20 და z != 10
+
+and ოპერატორის ცხრილი
+
+A	B	A and B
+True	True	True
+True	False	False
+False	True	False
+False	False	False
+
+True and True = True
+True and False = False
+False and True = False
+False and False = False
+
+or ოპერატორის ცხრილი
+
+A	B	A or B
+True	True	True
+True	False	True
+False	True	True
+False	False	False
+
+True or True = True
+True or False = True
+False or True = True
+False or False = False
+
+Control Flow (მიმართულების კონტროლი) არის პროგრამირების ცნება, რომელიც განსაზღვრავს, 
+თუ როგორ უნდა ჩაიტაროს პროგრამამ სხვადასხვა ბრძანებები (კოდის სტრიქონები) 
+ონკრეტული პირობების მიხედვით. სხვა სიტყვებით რომ ვთქვათ, control flow არის ის მექანიზმი,
+რომელიც განსაზღვრავს, თუ როგორ მოძრაობს პროგრამა
+
+Control Flow-ის ძირითადი ტექნიკები: ეს ჯგუფები ძირითადად 3 ჯგუფის ქვეშ იყოფა
+
+if
+elif
+else
+
+ალგორითმი (algorithm) არის კონკრეტული ნაბიჯების რიგი, რომელიც საჭიროებისამებრ გადაჭრის პრობლემას ან ამოცანას.
+ სხვა სიტყვებით რომ ვთქვათ, ალგორითმი არის განსაზღვრული მოქმედებების ნაკრები, რომელიც გადაგვიყვანს
+
+ ალგორითმების დასახატავად და წარმოდგენისთვის არსებობს რამდენიმე სხვადასხვა გზა. თითოეული მათგანი სხვადასხვა სიტუაციაში გამოიყენება, 
+ რათა ალგორითმების გააზრება უფრო მარტივი გახდეს. მთავარ წარმოდგენებს მივმართოთ:
+
+ 1. პსევდოკოდი (Pseudocode)
+ 2. ფლო-გრაფი (Flowchart)
+ 3. კოდი (Code)
+ 4. ტექსტური აღწერა
+ 5. მარტივი ალგორითმის დიაგრამები (State Transition Diagrams)
+ 

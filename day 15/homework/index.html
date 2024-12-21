@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<body>
+
+    <!-- 1. Text Input -->
+    <label for="text">Text Input:</label>
+    <input type="text" id="text" name="text"><br><br>
+
+    <!-- 2. Password Input -->
+    <label for="password">Password Input:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <!-- 3. Number Input -->
+    <label for="number">Number Input:</label>
+    <input type="number" id="number" name="number" min="0" max="100" step="1"><br><br>
+
+    <!-- 4. Email Input -->
+    <label for="email">Email Input:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+    <!-- 5. Date Input -->
+    <label for="date">Date Input:</label>
+    <input type="date" id="date" name="date"><br><br>
+
+    <!-- 6. File Input -->
+    <label for="file">File Input:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <!-- 7. Checkbox -->
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+    <!-- 8. Radio Button -->
+    <label for="radio">Radio Button:</label>
+    <input type="radio" id="radio" name="group1" value="option1"> Option 1
+    <input type="radio" id="radio2" name="group1" value="option2"> Option 2<br><br>
+
+    <!-- 9. Range -->
+    <label for="range">Range Input:</label>
+    <input type="range" id="range" name="range" min="1" max="100" step="1"><br><br>
+
+    <!-- 10. Telephone Input -->
+    <label for="tel">Telephone Input:</label>
+    <input type="tel" id="tel" name="tel" placeholder="123-456-7890"><br><br>
+
+    <!-- 11. Search Input -->
+    <label for="search">Search Input:</label>
+    <input type="search" id="search" name="search" placeholder="Search here"><br><br>
+
+    <!-- 12. Color Input -->
+    <label for="color">Color Input:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+    <!-- 13. URL Input -->
+    <label for="url">URL Input:</label>
+    <input type="url" id="url" name="url" placeholder="https://example.com"><br><br>
+
+    <!-- 14. Time Input -->
+    <label for="time">Time Input:</label>
+    <input type="time" id="time" name="time"><br><br>
+
+    <!-- 15. Week Input -->
+    <label for="week">Week Input:</label>
+    <input type="week" id="week" name="week"><br><br>
+
+    <!-- 16. Month Input -->
+    <label for="month">Month Input:</label>
+    <input type="month" id="month" name="month"><br><br>
+
+    <!-- 17. Hidden Input -->
+    <input type="hidden" id="hidden" name="hidden" value="hidden_value">
+
+    <br><br>
+    <button type="submit">Submit</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input და Label დაკავშირება</title>
+</head>
+<body>
+
+    <h2>Input და Label დაკავშირება</h2>
+
+    <!-- 1. Text input -->
+    <label for="text">Text:</label>
+    <input type="text" id="text" name="text" placeholder="შეიყვანეთ ტექსტი"><br><br>
+
+    <!-- 2. Password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი"><br><br>
+
+    <!-- 3. Number input -->
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" placeholder="შეიყვანეთ რიცხვი"><br><br>
+
+    <!-- 4. Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@example.com"><br><br>
+
+    <!-- 5. Tel input -->
+    <label for="tel">Phone:</label>
+    <input type="tel" id="tel" name="tel" placeholder="შეიყვანეთ ტელეფონის ნომერი"><br><br>
+
+    <!-- 6. URL input -->
+    <label for="url">Website:</label>
+    <input type="url" id="url" name="url" placeholder="https://example.com"><br><br>
+
+    <!-- 7. Date input -->
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+
+    <!-- 8. Time input -->
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br><br>
+
+    <!-- 9. Color input -->
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+    <!-- 10. File input -->
+    <label for="file">Upload file:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with 5 Inputs</title>
+</head>
+<body>
+
+    <h2>მომხმარებლის ფორმა</h2>
+
+    <!-- ფორმა -->
+    <form action="/submit" method="POST">
+        <!-- 1. ტექსტური input -->
+        <label for="fullname">სახელი და გვარი:</label>
+        <input type="text" id="fullname" name="fullname" value="ნიკო დავითაშვილი" placeholder="შეიყვანეთ თქვენი სახელი და გვარი"><br><br>
+
+        <!-- 2. ელექტრონული ფოსტის input -->
+        <label for="email">ელფოსტა:</label>
+        <input type="email" id="email" name="email" value="example@example.com" placeholder="შეიყვანეთ თქვენი ელფოსტა"><br><br>
+
+        <!-- 3. ტელეფონის input -->
+        <label for="phone">ტელეფონი:</label>
+        <input type="tel" id="phone" name="phone" value="+995 555 123456" placeholder="შეიყვანეთ თქვენი ტელეფონის ნომერი"><br><br>
+
+        <!-- 4. რიცხვის input -->
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" name="age" value="25" placeholder="შეიყვანეთ თქვენი ასაკი"><br><br>
+
+        <!-- 5. პაროლის input -->
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" value="mypassword" placeholder="შეიყვანეთ თქვენი პაროლი"><br><br>
+
+        <!-- დადასტურების ღილაკი -->
+        <button type="submit">დადასტურება</button>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+

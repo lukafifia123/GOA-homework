@@ -1,0 +1,77 @@
+
+
+range_20_50 = range(20, 51)
+
+print(list(range_20_50))
+
+
+
+range_100_150 = range(100, 151)
+
+range_list = list(range_100_150)
+
+
+
+even_numbers = range(20, 51, 2)
+
+even_numbers_list = list(even_numbers)
+
+print(even_numbers_list)
+
+
+
+odd_numbers = range(11, 32, 2)
+
+odd_numbers_list = list(odd_numbers)
+
+print(odd_numbers_list)
+
+full_name = "ლუკა ფიფია"
+
+for i in range(10):
+
+    print(full_name)
+
+
+
+for num in range(10, 31):
+
+    print(num / 2)
+
+
+for num in range(40, 61):
+
+    print(num ** 3)
+
+
+for i in range(5):
+
+        user_input = input("1")
+
+    print(f"1 {user_input}")
+
+
+name = input("ლუკა ")
+
+for letter in name:
+    print(letter) 
+
+
+
+ num1 = int(input(" (num1):1 "))
+num2 = int(input(" (num2):2 "))
+num3 = int(input(" (num3): 3"))
+
+for num in range(num1, num2, num3):
+
+    print(num ** 2)
+
+
+
+sum = 0
+
+for num in range(5, 16):
+
+    sum += num
+print(sum)
+
