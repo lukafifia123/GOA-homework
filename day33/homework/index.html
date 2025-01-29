@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underline Text Example</title>
+    <style>
+        /* Apply underline to all paragraph elements */
+        p {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <p>This is the first paragraph of text, and it will be underlined.</p>
+    <p>This is the second paragraph of text, and it will also be underlined.</p>
+    <p>All paragraphs on this page are underlined.</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Underline from Links</title>
+    <style>
+        /* Remove underline from all anchor tags */
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <p>This is a paragraph with a <a href="#">link</a> in it.</p>
+    <p>Another paragraph with an <a href="#">anchor tag</a> that has no underline.</p>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overline Text Example</title>
+    <style>
+        /* Apply overline to all h1 elements */
+        h1 {
+            text-decoration: overline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a heading with an overline.</h1>
+    <h1>Another heading with an overline.</h1>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Through Text Example</title>
+    <style>
+        /* Apply line-through to all span elements */
+        span {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+
+    <p>This is a <span>struck through</span> word inside a paragraph.</p>
+    <p>Another <span>struck through</span> example with a <span>span</span> element.</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Decorations Example</title>
+    <style>
+        /* Apply both underline and overline to all h2 elements */
+        h2 {
+            text-decoration: underline overline;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>This is a heading with both an underline and an overline.</h2>
+    <h2>Another heading with combined decorations.</h2>
+
+</body>
+</html>
+
+
+a {
+    text-decoration: underline dashed;
+  }
+  
+
+
+  <p class="warning">This is a warning message!</p>
+
+
+
+
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  h1, h2, h3, h4, h5, h6 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+
+
+  p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  p.special-text {
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.6); /* Red shadow */
+  }
+  
+
+
+  /* Import the Roboto font from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+  /* Apply the Roboto font to all paragraph text */
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+  /* Import the fonts from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap');
+  
+  /* Apply Roboto font to body text */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Apply Lora font to all headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+  }
+  
+
+  <section>
+    <h1>Typography Showcase</h1>
+    <h2>Combining Serif and Sans-serif Fonts</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Quisque feugiat est a dui condimentum, nec scelerisque dui egestas.</p>
+    <p>Etiam convallis nisi nec velit viverra, ut dictum lectus pharetra. Suspendisse fringilla libero ut nisi porttitor, id venenatis lacus fermentum.</p>
+  </section>
+  
+  /* Import custom font using @font-face */
+  @font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.woff2') format('woff2'),
+         url('fonts/MyCustomFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Apply custom font to all headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'MyCustomFont', sans-serif; /* Fallback to sans-serif if the font isn't loaded */
+  }
+  
+  /* Additional styles to showcase the font */
+  h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: normal;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+  }
+  
+  
+  /* Import custom font using @font-face */
+  @font-face {
+    font-family: 'DecorativeFont';
+    src: url('fonts/DecorativeFont.woff2') format('woff2'),
+         url('fonts/DecorativeFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Style buttons with the custom font */
+  button {
+    font-family: 'DecorativeFont', sans-serif; /* Apply the custom font to button text */
+    font-size: 16px;
+    font-weight: bold; /* If you want the text to appear bolder */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add hover effect */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+

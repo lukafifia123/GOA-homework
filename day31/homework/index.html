@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Example</title>
+    <style>
+        /* პირველი ხუთი პარაგრაფი - RGB მოდელი */
+        #p1 {
+            color: rgb(255, 0, 0); /* წითელი ტექსტი */
+            background-color: rgb(0, 255, 0); /* მწვანე ფონდი */
+        }
+        #p2 {
+            color: rgb(0, 0, 255); /* ლურჯი ტექსტი */
+            background-color: rgb(255, 255, 0); /* ყვითელი ფონდი */
+        }
+        #p3 {
+            color: rgb(255, 165, 0); /* ნარინჯისფერი ტექსტი */
+            background-color: rgb(0, 0, 0); /* შავი ფონდი */
+        }
+        #p4 {
+            color: rgb(75, 0, 130); /* იისფერი ტექსტი */
+            background-color: rgb(255, 192, 203); /* ვარდისფერი ფონდი */
+        }
+        #p5 {
+            color: rgb(0, 128, 128); /* იასამნისფერი ტექსტი */
+            background-color: rgb(255, 215, 0); /* ოქროსფერი ფონდი */
+        }
+        
+        /* მეორე ხუთი პარაგრაფი - Hex მოდელი */
+        #p6 {
+            color: #FF0000; /* წითელი ტექსტი */
+            background-color: #00FF00; /* მწვანე ფონდი */
+        }
+        #p7 {
+            color: #0000FF; /* ლურჯი ტექსტი */
+            background-color: #FFFF00; /* ყვითელი ფონდი */
+        }
+        #p8 {
+            color: #FFA500; /* ნარინჯისფერი ტექსტი */
+            background-color: #000000; /* შავი ფონდი */
+        }
+        #p9 {
+            color: #4B0082; /* იისფერი ტექსტი */
+            background-color: #FFC0CB; /* ვარდისფერი ფონდი */
+        }
+        #p10 {
+            color: #008080; /* იასამნისფერი ტექსტი */
+            background-color: #FFD700; /* ოქროსფერი ფონდი */
+        }
+    </style>
+</head>
+<body>
+
+    <p id="p1">This is a paragraph with red text and green background (RGB).</p>
+    <p id="p2">This is a paragraph with blue text and yellow background (RGB).</p>
+    <p id="p3">This is a paragraph with orange text and black background (RGB).</p>
+    <p id="p4">This is a paragraph with indigo text and pink background (RGB).</p>
+    <p id="p5">This is a paragraph with teal text and gold background (RGB).</p>
+    
+    <p id="p6">This is a paragraph with red text and green background (Hex).</p>
+    <p id="p7">This is a paragraph with blue text and yellow background (Hex).</p>
+    <p id="p8">This is a paragraph with orange text and black background (Hex).</p>
+    <p id="p9">This is a paragraph with indigo text and pink background (Hex).</p>
+    <p id="p10">This is a paragraph with teal text and gold background (Hex).</p>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Example</title>
+    <style>
+        /* მშობელი div ბლოკი */
+        .parent {
+            width: 1000px;
+            height: 1000px;
+            background-color: #008000; /* მწვანე ფონდი (Hex color) */
+            position: relative; /* შვილობილი ელემენტის პოზიცირების დასაყენებლად */
+        }
+
+        /* შვილობილი div ბლოკი */
+        .child {
+            width: 20%; /* მშობელი დივის სიგანე 20% */
+            height: 15%; /* მშობელი დივის სიმაღლე 15% */
+            background-color: #000000; /* შავი ფონდი (Hex color) */
+            position: absolute;
+            top: 50%; /* მშობელი დივის ცენტრში განთავსება */
+            left: 50%; /* მშობელი დივის ცენტრში განთავსება */
+            transform: translate(-50%, -50%); /* მთლიანი ბლოკის გაწონასწორება */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- მშობელი div ბლოკი -->
+    <div class="parent">
+        <!-- შვილობილი div ბლოკი -->
+        <div class="child"></div>
+    </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Div Blocks</title>
+    <style>
+        /* საერთო სტილი ყველა div ბლოკისთვის */
+        .block {
+            width: 120px; /* სიგანე 120px */
+            height: 150px; /* სიმაღლე 150px */
+            margin-bottom: 20px; /* დამატებითი სივრცე ბლოკებს შორის */
+        }
+
+        /* თითოეული div ბლოკისთვის განსხვავებული ფონი */
+        .block1 {
+            background-color: #FF5733; /* წითელი ფონი */
+        }
+        .block2 {
+            background-color: #33FF57; /* მწვანე ფონი */
+        }
+        .block3 {
+            background-color: #3357FF; /* ლურჯი ფონი */
+        }
+        .block4 {
+            background-color: #FF33A1; /* ვარდისფერი ფონი */
+        }
+        .block5 {
+            background-color: #F4FF33; /* ყვითელი ფონი */
+        }
+        .block6 {
+            background-color: #33FFF4; /* ცისფერი ფონი */
+        }
+        .block7 {
+            background-color: #9C33FF; /* იასამნისფერი ფონი */
+        }
+        .block8 {
+            background-color: #FF8333; /* ნარინჯისფერი ფონი */
+        }
+        .block9 {
+            background-color: #FF33FF; /* ნაცრისფერი ფონი */
+        }
+        .block10 {
+            background-color: #33FFB8; /* ლიმონისფერი ფონი */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 10 div ბლოკი -->
+    <div class="block block1"></div>
+    <div class="block block2"></div>
+    <div class="block block3"></div>
+    <div class="block block4"></div>
+    <div class="block block5"></div>
+    <div class="block block6"></div>
+    <div class="block block7"></div>
+    <div class="block block8"></div>
+    <div class="block block9"></div>
+    <div class="block block10"></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>განსხვავებული ფერები</title>
+    <link rel="stylesheet" href="styles.css"> <!-- დაკავშირება CSS ფაილთან -->
+</head>
+<body>
+
+    <p id="para1">პარაგრაფი 1 - წითელი ფერი</p>
+    <p id="para2">პარაგრაფი 2 - მწვანე ფერი</p>
+    <p id="para3">პარაგრაფი 3 - ლურჯი ფერი</p>
+    <p id="para4">პარაგრაფი 4 - ნარინჯისფერი ფერი</p>
+    <p id="para5">პარაგრაფი 5 - ყვითელი ფერი</p>
+
+</body>
+</html>
+
+
+
+/* პარაგრაფი 1 (წითელი ფერი) */
+#para1 {
+    color: red;
+}
+
+/* პარაგრაფი 2 (მწვანე ფერი) */
+#para2 {
+    color: green;
+}
+
+/* პარაგრაფი 3 (ლურჯი ფერი) */
+#para3 {
+    color: blue;
+}
+
+/* პარაგრაფი 4 (ნარინჯისფერი ფერი) */
+#para4 {
+    color: orange;
+}
+
+/* პარაგრაფი 5 (ყვითელი ფერი) */
+#para5 {
+    color: yellow;
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>შავი ფონის ღილაკები</title>
+    <link rel="stylesheet" href="styles.css"> <!-- დაკავშირება external CSS ფაილთან -->
+</head>
+<body>
+
+    <!-- 5 ღილაკი, ყველა ღილაკს აქვს ერთი და იგივე class -->
+    <button class="black-button">ღილაკი 1</button>
+    <button class="black-button">ღილაკი 2</button>
+    <button class="black-button">ღილაკი 3</button>
+    <button class="black-button">ღილაკი 4</button>
+    <button class="black-button">ღილაკი 5</button>
+
+</body>
+</html>
+
+
+
+/* ყველა ღილაკის ფონის ფერი იქნება შავი */
+.black-button {
+    background-color: black; /* შავი ფონდი */
+    color: white; /* თეთრი ტექსტი */
+    font-size: 16px; /* ტექსტის ზომა */
+    padding: 10px 20px; /* padding-ის ზომები */
+    border: none; /* საზღვარი არ იქნება */
+    border-radius: 5px; /* მრგვალი კუთხეები */
+    cursor: pointer; /* მაუსის კურსორი მაჩვენებს რომ ღილაკზე შესაძლებელია დაწერა */
+    margin: 10px; /* მარჟინი */
+}
+
+/* დამატებით ეფექტი ღილაკზე მაუსის გადატანით */
+.black-button:hover {
+    background-color: #333; /* უფრო მუქი შავი ფონდი hover-ზე */
+}
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ღილაკის მაგალითი</title>
+    <link rel="stylesheet" href="styles.css"> <!-- დაკავშირება CSS ფაილთან -->
+</head>
+<body>
+
+    <!-- ღილაკი, რომელსაც აქვს როგორც id, ისე class -->
+    <button id="myButton" class="blue-button">დაწკაპე მე</button>
+
+</body>
+</html>
+
+
+
+/* id სელექტორით სტილი */
+#myButton {
+    color: red; /* წითელი ფერი */
+}
+
+/* class სელექტორით სტილი */
+.blue-button {
+    color: blue; /* ლურჯი ფერი */
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დივ ბლოკები</title>
+    <link rel="stylesheet" href="styles.css"> <!-- დაკავშირება external CSS ფაილთან -->
+</head>
+<body>
+
+    <!-- პირველი div ბლოკი -->
+    <div id="div1">
+        <p>პარაგრაფი 1, div1</p>
+        <p>პარაგრაფი 2, div1</p>
+        <button>ღილაკი 1</button>
+        <button>ღილაკი 2</button>
+    </div>
+
+    <!-- მეორე div ბლოკი -->
+    <div id="div2">
+        <p>პარაგრაფი 1, div2</p>
+        <p>პარაგრაფი 2, div2</p>
+        <button>ღილაკი 1</button>
+        <button>ღილაკი 2</button>
+    </div>
+
+    <!-- მესამე div ბლოკი -->
+    <div id="div3">
+        <p>პარაგრაფი 1, div3</p>
+        <p>პარაგრაფი 2, div3</p>
+        <button>ღილაკი 1</button>
+        <button>ღილაკი 2</button>
+    </div>
+
+    <!-- მეოთხე div ბლოკი -->
+    <div id="div4">
+        <p>პარაგრაფი 1, div4</p>
+        <p>პარაგრაფი 2, div4</p>
+        <button>ღილაკი 1</button>
+        <button>ღილაკი 2</button>
+    </div>
+
+    <!-- მეხუთე div ბლოკი -->
+    <div id="div5">
+        <p>პარაგრაფი 1, div5</p>
+        <p>პარაგრაფი 2, div5</p>
+        <button>ღილაკი 1</button>
+        <button>ღილაკი 2</button>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

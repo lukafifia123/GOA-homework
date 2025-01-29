@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline CSS Example</title>
+</head>
+<body>
+    <h1 style="color: blue; text-align: center;">ეს არის inline CSS</h1>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS Example</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: green;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>ეს არის internal CSS</h1>
+</body>
+</html>
+
+
+
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>External CSS Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>ეს არის external CSS</h1>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inheritance Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="parent">
+        <p>This text inherits the color from the parent div.</p>
+        <p class="override">This text has overridden the inherited color.</p>
+        <p>This text also inherits the color from the parent div.</p>
+    </div>
+</body>
+</html>
+
+
+
+
+/* Parent div - sets the text color */
+.parent {
+    color: darkblue;  /* This will be inherited by child <p> elements */
+}
+
+/* Override the inherited color for the specific <p> element */
+.override {
+    color: red;  /* This will change the color of the specific <p> element */
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common and Specific Styles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph of text.</p>
+    <button>Click me!</button>
+</body>
+</html>
+
+
+
+
+/* Common styles for <p>, <h1>, and <button> */
+    p, h1, button {
+        font-family: Arial, sans-serif;
+        color: #333;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+    /* Specific styles for <button> */
+    button {
+        background-color: #4CAF50; /* Green background */
+        color: white; /* White text */
+        padding: 10px 20px; /* Padding inside the button */
+        border: none; /* Remove the default border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+    
+    /* Change button background on hover */
+    button:hover {
+        background-color: #45a049;
+
+        
+        <!DOCTYPE html>
+        <html lang="ka">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>მარტივი დიზაინი</title>
+            <link rel="stylesheet" href="styles.css"> <!-- დაკავშირება external CSS ფაილთან -->
+        </head>
+        <body>
+        
+            <!-- მთავარი კონტეინერი -->
+            <div class="container">
+                <header>
+                    <h1>ჩვენი საიტი</h1>
+                    <p>ჩვენ გთავაზობთ საუკეთესო მომსახურებას!</p>
+                </header>
+        
+                <section>
+                    <img src="https://via.placeholder.com/500" alt="placeholder image" class="image">
+                    <p>ეს არის placeholder სურათი. თქვენ შეგიძლიათ შეცვალოთ იგი თქვენი საკუთარი სურათით.</p>
+                </section>
+        
+                <button class="cta-btn">დაგვიკავშირდით</button> <!-- ქონდა გასაგები ღილაკი -->
+            </div>
+        
+        </body>
+        </
+        
+
+
+
+
+
+        
+        
+
